@@ -1,0 +1,88 @@
+meta:
+  name:
+    short: CEM
+    full: Center for Metropolitan Studies
+  link:
+    home: https://centrodametropole.fflch.usp.br
+    github: https://github.com/cem-usp
+    instagram: https://www.instagram.com/centrodametropole
+    x: https://x.com/CEM_CMS
+    facebook: https://www.facebook.com/CemCepid
+    youtube: https://www.youtube.com/@CentrodeEstudosdaMetropole
+    linkedin: https://www.linkedin.com/company/centro-de-estudos-da-metropole
+  description: |
+    The Center for Metropolitan Studies (CEM_ is one of the Research,
+    Innovation, and Dissemination Centers (CEPIDs) of the São Paulo Research
+    Foundation (FAPESP). It is based at the School of Philosophy, Letters and
+    Human Sciences (FFLCH) of the University of São Paulo (USP) and at the
+    Brazilian Center for Analysis and Planning (CEBRAP). CEM brings together a
+    multidisciplinary team of demographers, political scientists, sociologists,
+    geographers, economists, and anthropologists.
+
+  founded: 2000
+
+logo:
+  images:
+    logo:
+      path: image/logo.png
+      alt: "Logo"
+    icon:
+      path: images/icon.png
+      alt: "Icon"
+    logo-cem-20:
+      path: image/logo-cem-20.png
+      alt: "20-Year Commemorative Logo"
+
+color:
+  palette:
+    blue: "#014691"
+    gray: "#868485"
+    light-gray: "#c1bfc0" # colorspace::lighten("#868485", 0.50)
+    white: "#ffffff"
+    black: "#141414"
+    old-logo-blue: "#2c6091"
+    old-logo-gray: "#938f8c"
+    old-logo-dark-gray: "#37322b"
+    web-blue: "#086aab"
+    web-dark-blue: "#00203d"
+    web-gray: "#6d6d6d"
+  background: white
+  primary: blue
+  secondary: gray
+  tertiary: black
+  success: blue
+  info: blue
+  warning: black
+  danger: black
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Gothan
+      source: file
+    - family: Oswald
+      source: google
+    - family: Roboto
+      source: google
+    - family: Roboto Mono
+      source: google
+  base:
+    family: Oswald
+    size: 1rem
+    line-height: 1.5
+    weight: normal
+  headings:
+    family: Oswald
+    color: blue
+    line-height: 1.5
+    weight: bold
+  monospace: Roboto Mono
+  monospace-inline:
+    color: blue
+    background-color: light-gray
+  monospace-block:
+    background-color: light-gray
+  link:
+    color: blue
+    decoration: underline
