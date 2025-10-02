@@ -46,11 +46,6 @@ typography:
       source: google
   base:
     family: Barlow
-  headings:
-    family: An
-    color: black
-  base:
-    family: Barlow
     size: 1rem
     line-height: 1.25
     weight: normal
