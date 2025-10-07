@@ -24,11 +24,15 @@ logo:
 color:
   palette:
     blue: "#215f9a"
+    blue-l75: "#bdd5ff" # colorspace::lighten("#000000", 0.75)
     white: "#ffffff"
     black: "#000000"
-    gray-75: "#b9b9b9" # colorspace::lighten("#000000", 0.75)
-    gray-90: "#e2e2e2"
-    gray-95: "#f1f1f1"
+    gray-l75: "#b9b9b9" # colorspace::lighten("#000000", 0.75)
+    gray-l90: "#e2e2e2"
+    gray-l95: "#f1f1f1"
+    cem-blue: "#014691"
+    cem-gray: "#868485"
+    cem-black: "#141414"
   background: white
   primary: blue
   light: white
@@ -38,6 +42,8 @@ typography:
   fonts:
     - family: Impact
       source: file
+    - family: Anton
+      source: google
     - family: Antonio
       source: google
     - family: Barlow
