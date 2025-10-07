@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="618.42297"
+   width="618.422"
    height="1000"
-   viewBox="0 0 618.42297 1000"
+   viewBox="0 0 618.42199 1000"
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
@@ -26,15 +26,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="0.49953305"
-     inkscape:cx="456.42626"
-     inkscape:cy="469.43841"
+     inkscape:zoom="0.35322321"
+     inkscape:cx="254.7964"
+     inkscape:cy="601.6026"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1" />
+     inkscape:current-layer="layer2" />
   <defs
      id="defs1">
     <clipPath
@@ -47,9 +47,15 @@
          sodipodi:nodetypes="ccccccc" />
     </clipPath>
   </defs>
-  <path
-     id="path14-9"
-     style="display:inline;fill:#215f9a;fill-opacity:1;stroke-width:93.4646;stroke-linejoin:bevel;stroke-miterlimit:3;stroke-dasharray:109.042, 79.0554"
-     d="M 309.21151,0 C 138.43878,0 0,158.03539 0,309.21145 c 0,72.36865 26.320939,131.58292 26.320939,131.58292 0,0 199.689261,452.08649 249.952851,539.14542 11.58413,20.06421 32.93772,20.06091 32.93772,20.06091 0,0 21.29017,0 32.79082,-19.91382 50.52566,-87.51303 232.67513,-493.24689 232.67513,-493.24689 0,0 43.74554,-105.25989 43.74554,-177.62854 C 618.423,158.03539 479.98447,0 309.21151,0 Z m 0,174.77169 A 134.43976,134.43976 0 0 1 443.65137,309.21145 134.43976,134.43976 0 0 1 309.21151,443.6512 134.43976,134.43976 0 0 1 174.77188,309.21145 134.43976,134.43976 0 0 1 309.21151,174.77169 Z"
-     inkscape:label="Pin 2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Graphics"
+     sodipodi:insensitive="true">
+    <path
+       id="path14-9-6"
+       style="display:inline;fill:#014691;fill-opacity:1;stroke-width:93.4646;stroke-linejoin:bevel;stroke-miterlimit:3;stroke-dasharray:109.042, 79.0554"
+       d="M 309.211,0 C 138.43851,0 -4.9999954e-5,158.03517 0,309.21102 c 0,72.36853 26.320743,131.58269 26.320743,131.58269 0,0 199.689107,452.08591 249.952577,539.14476 11.58409,20.06423 32.93768,20.06088 32.93768,20.06088 0,0 21.29019,0.01 32.79068,-19.91378 50.52527,-87.51295 232.67475,-493.24628 232.67475,-493.24628 0,0 43.74557,-105.25974 43.74557,-177.62827 C 618.422,158.03517 479.98369,0 309.211,0 Z m 0,174.77145 A 134.43957,134.43957 0 0 1 443.65061,309.21102 134.43957,134.43957 0 0 1 309.211,443.65061 134.43957,134.43957 0 0 1 174.77149,309.21102 134.43957,134.43957 0 0 1 309.211,174.77145 Z"
+       inkscape:label="Pin 2" />
+  </g>
 </svg>

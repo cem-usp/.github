@@ -14,34 +14,45 @@ logo:
     logo:
       path: images/logo.svg
       alt: "Logo"
+    name:
+      path: images/name.svg
+      alt: "Name"
+    name-horizontal:
+      path: images/name-horizontal.svg
+      alt: "Horizontal Name"
     icon:
       path: images/icon.svg
       alt: "Icon"
-    pin:
-      path: images/pin.svg
-      alt: "Pin"
+    pin-1:
+      path: images/pin-1.svg
+      alt: "Pin 1"
+    pin-2:
+      path: images/pin-2.svg
+      alt: "Pin 2"
 
 color:
   palette:
-    blue: "#215f9a"
-    blue-l75: "#bdd5ff" # colorspace::lighten("#000000", 0.75)
+    blue: "#014691"
+    gray: "#868489"
     white: "#ffffff"
-    black: "#000000"
-    gray-l75: "#b9b9b9" # colorspace::lighten("#000000", 0.75)
+    black: "#141414"
+    gray-l50: "#c1bfc4" # colorspace::lighten("#868489", 0.50)
+    gray-l75: "#b9b9b9"
     gray-l90: "#e2e2e2"
     gray-l95: "#f1f1f1"
-    cem-blue: "#014691"
-    cem-gray: "#868485"
-    cem-black: "#141414"
   background: white
   primary: blue
+  secondary: gray
+  tertiary: black
+  success: blue
+  info: blue
+  warning: black
+  danger: black
   light: white
   dark: black
 
 typography:
   fonts:
-    - family: Impact
-      source: file
     - family: Anton
       source: google
     - family: Antonio
@@ -56,12 +67,15 @@ typography:
     line-height: 1.25
     weight: normal
   headings:
-    family: Antonio
+    family: Anton
     color: blue
     weight: 700
   monospace: Space Mono
   monospace-inline:
     color: blue
+    background-color: gray-l90
+  monospace-block:
+    background-color: gray-l90
   link:
     color: blue
     decoration: none

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="618.422"
+   height="1000"
+   viewBox="0 0 618.42199 1000"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="pin-2-black.svg"
+   inkscape:export-filename="pin-2-black.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.49953305"
+     inkscape:cx="328.3066"
+     inkscape:cy="559.52253"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath29">
+      <path
+         id="path29"
+         style="display:inline;fill:#000000;stroke-width:46.5754;stroke-linejoin:bevel;stroke-miterlimit:3;stroke-dasharray:54.3381, 38.0365"
+         d="M 649.99841,145 H 915 v 85 h 85 V 430 H 649.99841 Z"
+         sodipodi:nodetypes="ccccccc" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Graphics"
+     sodipodi:insensitive="true">
+    <path
+       id="path14-9-6"
+       style="display:inline;fill:#141414;fill-opacity:1;stroke-width:93.4646;stroke-linejoin:bevel;stroke-miterlimit:3;stroke-dasharray:109.042, 79.0554"
+       d="M 309.211,0 C 138.43851,0 -4.9999954e-5,158.03517 0,309.21102 c 0,72.36853 26.320743,131.58269 26.320743,131.58269 0,0 199.689107,452.08591 249.952577,539.14476 11.58409,20.06423 32.93768,20.06088 32.93768,20.06088 0,0 21.29019,0.01 32.79068,-19.91378 50.52527,-87.51295 232.67475,-493.24628 232.67475,-493.24628 0,0 43.74557,-105.25974 43.74557,-177.62827 C 618.422,158.03517 479.98369,0 309.211,0 Z m 0,174.77145 A 134.43957,134.43957 0 0 1 443.65061,309.21102 134.43957,134.43957 0 0 1 309.211,443.65061 134.43957,134.43957 0 0 1 174.77149,309.21102 134.43957,134.43957 0 0 1 309.211,174.77145 Z"
+       inkscape:label="Pin 2" />
+  </g>
+</svg>

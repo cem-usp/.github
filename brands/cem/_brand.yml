@@ -36,10 +36,13 @@ logo:
 color:
   palette:
     blue: "#014691"
-    gray: "#868485"
-    light-gray: "#c1bfc0" # colorspace::lighten("#868485", 0.50)
+    gray: "#868489"
     white: "#ffffff"
     black: "#141414"
+    gray-l50: "#c1bfc4" # colorspace::lighten("#868489", 0.50)
+    gray-l75: "#b9b9b9"
+    gray-l90: "#e2e2e2"
+    gray-l95: "#f1f1f1"
     old-logo-blue: "#2c6091"
     old-logo-gray: "#938f8c"
     old-logo-dark-gray: "#37322b"
@@ -80,9 +83,9 @@ typography:
   monospace: Roboto Mono
   monospace-inline:
     color: blue
-    background-color: light-gray
+    background-color: gray-l90
   monospace-block:
-    background-color: light-gray
+    background-color: gray-l90
   link:
     color: blue
-    decoration: underline
+    decoration: none
