@@ -29,9 +29,12 @@ logo:
     icon:
       path: images/icon.svg
       alt: "Icon"
-    alt-icon:
-      path: images/alt-icon.svg
-      alt: "Alternative Icon"
+    og-image:
+      path: images/og-image.svg
+      alt: "Open Graph Image"
+    favicon:
+      path: images/favicon.svg
+      alt: "Favicon"
 
 color:
   palette:
@@ -39,34 +42,53 @@ color:
     gray: "#868489"
     white: "#ffffff"
     black: "#141414"
+    mono-blue-1: "#14273a" # https://color.adobe.com/create/color-wheel
+    mono-blue-2: "#123b64"
+    mono-blue-3: "#01478f"
+    mono-blue-4: "#82c1ff"
+    mono-blue-5: "#add6ff"
+    mono-blue-6: "#d7ebff"
+    comp-blue-1: "#8f5a01" # https://color.adobe.com/create/color-wheel
+    comp-blue-2: "#123b64"
+    comp-blue-3: "#01488f"
+    comp-blue-4: "#5c4113"
+    comp-blue-5: "#14273a"
+    comp-blue-6: "#f5bf64"
+    triad-blue-olive: "#7f9101" # https://color.adobe.com/create/color-wheel
+    triad-blue-red: "#910c01"
+    triad-blue-blue: "#014791"
+    square-blue-green: "#1d8f01" # https://color.adobe.com/create/color-wheel
+    square-blue-orange: "#8f5a01"
+    square-blue-blue: "#01488f"
+    square-blue-purple: "#8f0170"
     blue-d50: "#002554" # colorspace::darken("#014691", 0.50)
-    blue-l25: "#4f70b7" # colorspace::lighten("#014691", 0.25)
+    blue-l25: "#4f70b7"
     gray-l50: "#c1bfc4" # colorspace::lighten("#868489", 0.50)
     gray-l75: "#b9b9b9"
     gray-l90: "#e2e2e2"
     gray-l95: "#f1f1f1"
-    old-logo-blue: "#2c6091"
+    old-logo-blue: "#2c6091" # Deprecated. Kept only for legacy purposes.
     old-logo-gray: "#938f8c"
     old-logo-dark-gray: "#37322b"
-    web-blue: "#086aab"
+    web-blue: "#086aab" # Deprecated. Kept only for legacy purposes.
     web-dark-blue: "#00203d"
     web-gray: "#6d6d6d"
   background: white
   primary: blue
   secondary: gray
   tertiary: black
-  success: blue
-  info: blue
-  warning: blue
-  danger: blue
+  success: square-blue-green
+  info: square-blue-blue
+  warning: square-blue-orange
+  danger: triad-blue-red
   light: white
   dark: black
 
 typography:
   fonts:
-    - family: Gothan # Use Montserrat instead
+    - family: Gothan # Use Montserrat instead!
       source: file
-    - family: Rotis Semi Sans # Use Roboto isntead
+    - family: Rotis Semi Sans # Use Roboto instead!
       source: file
     - family: Montserrat
       source: google
@@ -86,10 +108,10 @@ typography:
     weight: 800
   monospace: Roboto Mono
   monospace-inline:
-    color: blue
+    color: comp-blue-1
     background-color: gray-l95
   monospace-block:
     background-color: gray-l95
   link:
-    color: blue
+    color: comp-blue-1
     decoration: none
