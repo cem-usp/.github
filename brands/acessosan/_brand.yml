@@ -36,6 +36,8 @@ color:
     gray: "#868489"
     white: "#ffffff"
     black: "#141414"
+    blue-d50: "#002554" # colorspace::darken("#014691", 0.50)
+    blue-l25: "#4f70b7" # colorspace::lighten("#014691", 0.25)
     gray-l50: "#c1bfc4" # colorspace::lighten("#868489", 0.50)
     gray-l75: "#b9b9b9"
     gray-l90: "#e2e2e2"
@@ -46,8 +48,8 @@ color:
   tertiary: black
   success: blue
   info: blue
-  warning: black
-  danger: black
+  warning: blue
+  danger: blue
   light: white
   dark: black
 
@@ -57,25 +59,28 @@ typography:
       source: google
     - family: Antonio
       source: google
-    - family: Barlow
+    - family: Montserrat
       source: google
-    - family: Space Mono
+    - family: Roboto
+      source: google
+    - family: Roboto Mono
       source: google
   base:
-    family: Barlow
+    family: Roboto
     size: 1rem
-    line-height: 1.25
+    line-height: 1.5
     weight: normal
   headings:
-    family: Anton
+    family: Montserrat
     color: blue
-    weight: 700
-  monospace: Space Mono
+    line-height: 1.5
+    weight: 800
+  monospace: Roboto Mono
   monospace-inline:
     color: blue
-    background-color: gray-l90
+    background-color: gray-l95
   monospace-block:
-    background-color: gray-l90
+    background-color: gray-l95
   link:
     color: blue
     decoration: none

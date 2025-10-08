@@ -24,14 +24,14 @@ meta:
 logo:
   images:
     logo:
-      path: image/logo.png
+      path: image/logo.svg
       alt: "Logo"
     icon:
-      path: images/icon.png
+      path: images/icon.svg
       alt: "Icon"
-    logo-cem-20:
-      path: image/logo-cem-20.png
-      alt: "20-Year Commemorative Logo"
+    alt-icon:
+      path: images/alt-icon.svg
+      alt: "Alternative Icon"
 
 color:
   palette:
@@ -39,6 +39,8 @@ color:
     gray: "#868489"
     white: "#ffffff"
     black: "#141414"
+    blue-d50: "#002554" # colorspace::darken("#014691", 0.50)
+    blue-l25: "#4f70b7" # colorspace::lighten("#014691", 0.25)
     gray-l50: "#c1bfc4" # colorspace::lighten("#868489", 0.50)
     gray-l75: "#b9b9b9"
     gray-l90: "#e2e2e2"
@@ -55,37 +57,39 @@ color:
   tertiary: black
   success: blue
   info: blue
-  warning: black
-  danger: black
+  warning: blue
+  danger: blue
   light: white
   dark: black
 
 typography:
   fonts:
-    - family: Gothan
+    - family: Gothan # Use Montserrat instead
       source: file
-    - family: Oswald
+    - family: Rotis Semi Sans # Use Roboto isntead
+      source: file
+    - family: Montserrat
       source: google
     - family: Roboto
       source: google
     - family: Roboto Mono
       source: google
   base:
-    family: Oswald
+    family: Roboto
     size: 1rem
     line-height: 1.5
     weight: normal
   headings:
-    family: Oswald
+    family: Montserrat
     color: blue
     line-height: 1.5
-    weight: bold
+    weight: 800
   monospace: Roboto Mono
   monospace-inline:
     color: blue
-    background-color: gray-l90
+    background-color: gray-l95
   monospace-block:
-    background-color: gray-l90
+    background-color: gray-l95
   link:
     color: blue
     decoration: none
