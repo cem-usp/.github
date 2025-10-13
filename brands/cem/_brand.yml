@@ -10,6 +10,7 @@ meta:
     facebook: https://www.facebook.com/CemCepid
     youtube: https://www.youtube.com/@CentrodeEstudosdaMetropole
     linkedin: https://www.linkedin.com/company/centro-de-estudos-da-metropole
+    linktree: https://linktr.ee/cem_cepid_fapesp
   description: |
     The Center for Metropolitan Studies (CEM_ is one of the Research,
     Innovation, and Dissemination Centers (CEPIDs) of the São Paulo Research
@@ -20,21 +21,6 @@ meta:
     geographers, economists, and anthropologists.
 
   founded: 2000
-
-logo:
-  images:
-    logo:
-      path: image/logo.svg
-      alt: "Logo"
-    icon:
-      path: images/icon.svg
-      alt: "Icon"
-    og-image:
-      path: images/og-image.svg
-      alt: "Open Graph Image"
-    favicon:
-      path: images/favicon.svg
-      alt: "Favicon"
 
 color:
   palette:
@@ -67,12 +53,6 @@ color:
     gray-l75: "#b9b9b9"
     gray-l90: "#e2e2e2"
     gray-l95: "#f1f1f1"
-    old-logo-blue: "#2c6091" # Deprecated. Kept only for legacy purposes.
-    old-logo-gray: "#938f8c"
-    old-logo-dark-gray: "#37322b"
-    web-blue: "#086aab" # Deprecated. Kept only for legacy purposes.
-    web-dark-blue: "#00203d"
-    web-gray: "#6d6d6d"
   background: white
   primary: blue
   secondary: gray
@@ -86,10 +66,6 @@ color:
 
 typography:
   fonts:
-    - family: Gothan # Use Montserrat instead!
-      source: file
-    - family: Rotis Semi Sans # Use Roboto instead!
-      source: file
     - family: Montserrat
       source: google
     - family: Roboto
@@ -108,7 +84,7 @@ typography:
     weight: 800
   monospace: Roboto Mono
   monospace-inline:
-    color: comp-blue-1
+    color: black
     background-color: gray-l95
   monospace-block:
     background-color: gray-l95
