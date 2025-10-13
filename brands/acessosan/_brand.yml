@@ -30,7 +30,7 @@ logo:
       path: images/pin-2.svg
       alt: "Pin 2"
 
-# Use CEM brand.yml when rendering documents!
+# Use CEM's `brand.yml` when rendering documents!
 color:
   palette:
     blue: "#014691"
