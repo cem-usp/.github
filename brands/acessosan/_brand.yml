@@ -35,6 +35,7 @@ color:
   palette:
     blue: "#014691"
     gray: "#868489"
+    blue-comp-1: "#FFA203"
     white: "#ffffff"
     black: "#141414"
 
